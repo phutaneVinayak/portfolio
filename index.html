@@ -105,14 +105,26 @@
 				<li>Educations </li>
 				<li>Cerrer </li>
 				<li>About </li>
+
 			</ul>
 		</nav>
 	</div>
 </body>
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script>
+	// Initialize Firebase
+	var config = {
+		apiKey: "AIzaSyA3d7-_8oYb04ueFIihZmtwYsm2i0oRn5Y",
+		authDomain: "myporfolio-a4144.firebaseapp.com",
+		databaseURL: "https://myporfolio-a4144.firebaseio.com",
+		projectId: "myporfolio-a4144",
+		storageBucket: "",
+		messagingSenderId: "1076405700350"
+	};
+	firebase.initializeApp(config);
+</script>
+
 <script type="text/javascript">
-	
-		
-		
 		$(document).ready(function(){
 			    var nav_font_color_change = [
 				{color:"#fda5a5"},
